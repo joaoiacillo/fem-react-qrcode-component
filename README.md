@@ -28,8 +28,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![](./images/mobile-screenshot.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/qrcode-component-with-reactjs-webpack-and-semantic-html-oOLJHNjKZ-)
+- Live Site URL: [Deployed with Vercel](https://fem-react-qrcode-component.vercel.app/)
 
 ## My process
 
