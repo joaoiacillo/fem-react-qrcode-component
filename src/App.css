@@ -14,3 +14,18 @@ body {
   font-size: 1rem;
   font-family: 'Outfit', sans-serif;
 }
+
+.attribution {
+  max-width: fit-content;
+  margin: 15px 0 0 15px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #fff7f7;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.attribution,
+.attribution a {
+  color: rgb(100, 100, 100);
+}
