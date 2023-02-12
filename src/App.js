@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import CenterContainer from './components/CenterContainer';
+import Card from './components/Card';
+
+import qrcode from "./images/qrcode.png";
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CenterContainer>
+      <Card
+        image={qrcode}
+        imageAlt="QR Code"
+        title="Improve your front-end skills by building projects"
+        content="Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
+      />
+    </CenterContainer>
   );
 }
 
